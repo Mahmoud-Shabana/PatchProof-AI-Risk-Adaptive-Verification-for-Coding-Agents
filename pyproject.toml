@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patchproof-ai"
+version = "0.3.0"
+description = "Evidence-gated agentic workflow for verified software bug fixing."
+requires-python = ">=3.11"
+dependencies = ["pytest>=8.0"]
+
+[project.scripts]
+patchproof-run = "patchproof.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
