@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you reference PatchProof AI, please cite the software and its author."
+title: "PatchProof AI: Risk-Adaptive Verification for Coding Agents"
+type: software
+authors:
+  - family-names: "Shabana"
+    given-names: "Mahmoud"
+    alias: "Mahmoud-Shabana"
+year: 2026
+repository-code: "https://github.com/Mahmoud-Shabana/PatchProof-AI-Risk-Adaptive-Verification-for-Coding-Agents"
+license: "LicenseRef-PatchProof-Hackathon-Terms"
+keywords:
+  - agentic-ai
+  - coding-agents
+  - software-verification
+  - risk-adaptive-verification
+  - llm-evaluation
+  - reproducibility
